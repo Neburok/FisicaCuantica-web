@@ -1,0 +1,27 @@
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario:#0097a7;
+    --gris: #757575;
+    --grisclaro: #DFE9F3;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    font-size: 16px; /* 1rem =10px */
+    font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, var(--grisclaro) 0%, var(--blanco) 100%);
+}
+
+.cabecera{
+  font-size: 2rem
+}
